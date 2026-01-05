@@ -1,0 +1,11 @@
+books = []
+
+while True:
+    book = input("Add book (or stop): ")
+    if book == "stop":
+        break
+    books.append(book)
+
+print("Library Books:")
+for b in books:
+    print(b)
